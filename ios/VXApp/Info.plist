@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CodePushDeploymentKey</key>
+  <string>$(CODEPUSH_KEY)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.3.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>90</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>itms-apps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Precisamos de acesso a sua câmera para a leitura de qrcode.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Precisamos de acesso a pasta de documentos, para salvar a suas garantias.</string>
+	<key>NSFileSharingEnabled</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Utilizamos sua localização para enviar notificações push personalizadas baseadas na sua região. Por exemplo, informaremos sobre eventos locais, promoções e outras informações relevantes para sua área.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Utilizamos sua localização para enviar notificações push personalizadas baseadas na sua região. Por exemplo, informaremos sobre eventos locais, promoções e outras informações relevantes para sua área.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Precisamos de acesso a sua câmera para a leitura de qrcode.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Precisamos de acesso a sua câmera para a leitura de qrcode.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Este aplicativo gostaria de mostrar notificações</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Utilizamos sua localização para enviar notificações push personalizadas baseadas na sua região. Por exemplo, informaremos sobre eventos locais, promoções e outras informações relevantes para sua área.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>SplashScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

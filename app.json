@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "VXApp",
+    "slug": "VXApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Precisamos de acesso a sua câmera para a leitura de qrcode."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "rootDirs": ["src", "stories"],
+    "target": "es2017",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"]
+    }
+  },
+  "extends": "expo/tsconfig.base",
+  "exclude": [
+    "__tests__/**/*-test.ts",
+    "node_modules"
+  ]
+}
