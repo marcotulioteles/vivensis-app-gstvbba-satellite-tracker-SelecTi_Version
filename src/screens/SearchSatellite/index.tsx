@@ -80,7 +80,7 @@ export const SearchSatellite = () => {
       //   title: item.title,
       //   data: item.data,
       // })
-      navigation.navigate('SearchSatelliteRA', {
+      navigation.navigate('SatelliteTrackerCamera', {
         title: item.title,
         data: item.data,
       })

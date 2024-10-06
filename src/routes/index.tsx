@@ -23,6 +23,7 @@ import { SearchSatellite } from '~/screens/SearchSatellite'
 import { SearchSatelliteCamera } from '~/screens/SearchSatellite/SearchSatelliteCamera'
 import { IMessagesList, Messages } from '~/screens/Messages'
 import { SearchSatelliteRA } from '~/screens/SearchSatellite/SearchSatelliteRA/Index'
+import { SatelliteTrackerCamera } from '~/screens/SatelliteTracker'
 
 export type RootBottomTabParamList = {
   Dashboard: undefined
@@ -59,6 +60,10 @@ export type RootBottomTabParamList = {
     data: { tleLine1: string; tleLine2: string }
   }
   SearchSatelliteRA: {
+    title: string
+    data: { tleLine1: string; tleLine2: string }
+  }
+  SatelliteTrackerCamera: {
     title: string
     data: { tleLine1: string; tleLine2: string }
   }
@@ -107,6 +112,7 @@ const AppRoutes = () => {
       <App.Screen name='SearchSatellite' component={SearchSatellite} />
       <App.Screen name='SearchSatelliteCamera' component={SearchSatelliteCamera} />
       <App.Screen name='SearchSatelliteRA' component={SearchSatelliteRA} />
+      <App.Screen name='SatelliteTrackerCamera' component={SatelliteTrackerCamera} />
       <App.Screen name='Messages' component={Messages} />
     </App.Navigator>
   )
